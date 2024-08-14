@@ -3,6 +3,8 @@
  * important and set date for the row updated. This is useful for larger spreadsheets where
  * multiple users make updates to the rows and offers auditable record to indicate that the
  * cell was changed.
+ * @param {Event} e The onOpen event.
+ * @see https://developers.google.com/apps-script/guides/triggers#onopene
  */
 function onEdit(e){
   let sheetToTrack = 'Sheet1';  // name of a sheet to track. Can be removed it tracking all sheets
